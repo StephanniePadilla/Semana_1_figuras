@@ -3,7 +3,7 @@ package Figura;
 public class Circulo extends Figura {
     private double radio;
 
-    public void circulo(double r){ //contructor circulo
+    public Circulo(double r){ //contructor circulo
         this.radio = r;
     }
 

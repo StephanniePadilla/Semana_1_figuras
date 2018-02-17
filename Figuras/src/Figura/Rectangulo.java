@@ -4,7 +4,7 @@ public class Rectangulo extends Figura {
     private double l1;
     private double l2;
 
-    public void rectangulo (double a, double b){//contructor del rectangulo
+    public Rectangulo (double a, double b){//contructor del rectangulo
         this.l1 = a;
         this.l2 = b;
     }

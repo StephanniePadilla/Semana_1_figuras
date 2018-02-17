@@ -4,7 +4,7 @@ public class Triangulo extends Figura {
     private double base;
     private double altura;
 
-   public void triangulo (double b, double h){ //consstrustor triangulo
+   public Triangulo (double b, double h){ //constructor triangulo
        this.base=b;
        this.altura = h;
    }
